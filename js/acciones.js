@@ -5,13 +5,13 @@ $(document).ready(function(e) {
 		
 		audio=window .plugins .LowLatencyAudio;
 		
-		audio.preloadFx('do','audio/Do.mp3',function(){},function(e){alert('Error'+e);});
-		audio.preloadFx('re','audio/RE.mp3',function(){},function(e){alert('Error'+e);});
-		audio.preloadFx('mi','audio/MI.mp3',function(){},function(e){alert('Error'+e);});
-		audio.preloadFx('fa','audio/FA.mp3',function(){},function(e){alert('Error'+e);});
-		audio.preloadFx('sol','audio/SOL.mp3',function(){},function(e){alert('Error'+e);});
-		audio.preloadFx('la','audio/LA.mp3',function(){},function(e){alert('Error'+e);});
-		audio.preloadFx('si','audio/SI.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('do','audio/Do.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('re','audio/RE.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('mi','audio/MI.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('fa','audio/FA.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('sol','audio/SOL.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('la','audio/LA.mp3',function(){},function(e){alert('Error'+e);});
+		audio.preloadFX('si','audio/SI.mp3',function(){},function(e){alert('Error'+e);});
 		
 		$('.nota').bind('touchstart',function(){
 			$(this).addClass('tocada');
