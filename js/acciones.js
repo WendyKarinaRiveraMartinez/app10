@@ -3,7 +3,7 @@ $(document).ready(function(e) {
     $('#principal').height($('#page1').height());
 	document.addEventListener("deviceready",function(){
 		
-		audio=window.plugins.LowLatencyAudio;
+		audio=window .plugins .LowLatencyAudio;
 		
 		audio.preloadFx('do','audio/Do.mp3',function(){},function(e){alert('Error'+e);});
 		audio.preloadFx('re','audio/RE.mp3',function(){},function(e){alert('Error'+e);});
